@@ -14,11 +14,6 @@
     "format": "prettier --plugin-search-dir . --write .",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "bash ./husky/_/pre-push-vump.sh"
-    }
-  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
