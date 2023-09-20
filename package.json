@@ -16,7 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "bash ./husky/pre-push-vump.sh"
+      "pre-push": "bash ./husky/_/pre-push-vump.sh"
     }
   },
   "devDependencies": {
